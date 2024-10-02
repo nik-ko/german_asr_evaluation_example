@@ -1,0 +1,2 @@
+This is an added word example - without any errors - in the manual transcript file, it also includes a German number;
+1914 that is Neunzehnhundertvierzehn as a word.
