@@ -6,5 +6,5 @@ Code for comparing German ASR results to a ground truth transcription, including
 - removal of punctuation
 - visualization of errors (insertions, deletions, substitutions)
 
-See [compare.ipynb] for usage
+See [compare.ipynb](compare.ipynb) for usage
 
