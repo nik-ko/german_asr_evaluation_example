@@ -18,7 +18,7 @@ def clean_text(text):
     pattern_before = re.compile(r'\s([' + re.escape(punctuation_before) + '])')
     text = pattern_before.sub(r'\1', text)
 
-    pattern_after = re.compile(r'([' + re.escape(punctuation_after) + '])\s')
+    pattern_after = re.compile(r'([' + re.escape(punctuation_after) + r'])\s')
     text = pattern_after.sub(r'\1', text)
 
     pattern_drop = re.compile('[' + re.escape(symbols_to_drop) + ']')
